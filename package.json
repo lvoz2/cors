@@ -1,0 +1,13 @@
+{
+  "name": "keep-header-proxy-searchable",
+  "version": "1.0.0",
+  "description": "keep-header-proxy with the ability to do casual browsing",
+  "main": "server.js",
+  "author": "lv_oz2",
+  "dependencies": {
+    "cors-anywhere": "0.4.4"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}

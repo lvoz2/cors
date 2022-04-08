@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Input URL to Proxy Here</title>
+		<script>
+			function submit() {
+				var url = document.getElementById("url").value;
+				window.location = "http://keep-header-proxy-searchable.herokuapp.com/" + url;
+			}
+		</script>
+	</head>
+	<body>
+		<input type="text" id="url">
+		<button onclick="submit()">Submit</button>
+	</body>
+<html>
